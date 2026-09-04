@@ -1,0 +1,146 @@
+{
+  "releases": {
+    "vllm-project/vllm-omni:v0.28.0": {
+      "fingerprint": "343123d51e4c7501",
+      "last_seen": "2026-09-04T08:51:07.780206+00:00"
+    },
+    "langchain-ai/langchain:langchain==1.4.0a4": {
+      "fingerprint": "f3996a6505319b35",
+      "last_seen": "2026-09-04T08:51:09.108346+00:00"
+    },
+    "mem0ai/mem0:v2.0.20": {
+      "fingerprint": "c07f9c68f2642def",
+      "last_seen": "2026-09-04T08:51:10.490574+00:00"
+    },
+    "mem0ai/mem0:ts-v3.1.8": {
+      "fingerprint": "8c48644a80e667f4",
+      "last_seen": "2026-09-04T08:51:11.708673+00:00"
+    },
+    "alibaba/OpenSandbox:python/sandbox/v0.1.17.dev0": {
+      "fingerprint": "f6abe53f100313ae",
+      "last_seen": "2026-09-04T08:51:12.640880+00:00"
+    },
+    "LMCache/LMCache:nightly-cu129": {
+      "fingerprint": "278f63573000f26f",
+      "last_seen": "2026-09-04T08:51:13.753320+00:00"
+    },
+    "langchain-ai/langchain:langchain-anthropic==1.7.1": {
+      "fingerprint": "bafc37e569060e28",
+      "last_seen": "2026-09-04T08:51:14.790591+00:00"
+    },
+    "langchain-ai/langchain:langchain==1.4.0": {
+      "fingerprint": "7b6323f0bde32d54",
+      "last_seen": "2026-09-04T08:51:15.660217+00:00"
+    },
+    "LMCache/LMCache:nightly-rocm": {
+      "fingerprint": "e13746ca1acf04dc",
+      "last_seen": "2026-09-04T08:51:16.645316+00:00"
+    },
+    "LMCache/LMCache:nightly": {
+      "fingerprint": "33a23f41f71074ac",
+      "last_seen": "2026-09-04T08:51:18.152164+00:00"
+    }
+  },
+  "projects": {
+    "RekklesNA/ProxmoxMCP-Plus": {
+      "fingerprint": "911fabd4fcb66e2e",
+      "last_seen": "2026-09-04T08:51:31.617139+00:00"
+    },
+    "no-human-ai/no_human": {
+      "fingerprint": "14f8009359dbef53",
+      "last_seen": "2026-09-04T08:51:32.687353+00:00"
+    },
+    "kirodotdev/KiroCrew": {
+      "fingerprint": "c268e7bc4d48b582",
+      "last_seen": "2026-09-04T08:51:34.762013+00:00"
+    },
+    "openwong2kim/wmux": {
+      "fingerprint": "3e0bd48f9fbb4b8b",
+      "last_seen": "2026-09-04T08:51:35.874844+00:00"
+    },
+    "gakonst/nanocodex": {
+      "fingerprint": "7fba1ff8f30792f7",
+      "last_seen": "2026-09-04T08:51:36.873117+00:00"
+    },
+    "vm0-ai/vm0": {
+      "fingerprint": "60494fa2cdeb3560",
+      "last_seen": "2026-09-04T08:51:27.081737+00:00"
+    },
+    "tianma-if/edgeever": {
+      "fingerprint": "29effa5224bd4202",
+      "last_seen": "2026-09-04T08:51:37.843507+00:00"
+    },
+    "ChatLab/ChatLab": {
+      "fingerprint": "29be4c6cc23d73c0",
+      "last_seen": "2026-09-04T08:51:38.748537+00:00"
+    },
+    "oneshot-agent/oneshot-gtm": {
+      "fingerprint": "7f18a78e5278e87f",
+      "last_seen": "2026-09-04T08:51:39.887185+00:00"
+    },
+    "makecindy/cindy": {
+      "fingerprint": "e2da000d47026ff5",
+      "last_seen": "2026-09-04T08:51:40.880652+00:00"
+    },
+    "1ay1/agentty": {
+      "fingerprint": "b78226da655a4cfa",
+      "last_seen": "2026-09-04T08:51:30.514150+00:00"
+    },
+    "agentconnect-md/agentconnect": {
+      "fingerprint": "dfefebfde0912387",
+      "last_seen": "2026-09-04T08:48:17.194516+00:00"
+    },
+    "neomjs/neo": {
+      "fingerprint": "18852be2cab703f0",
+      "last_seen": "2026-09-04T08:51:29.482417+00:00"
+    },
+    "aqm857886159/Nomi": {
+      "fingerprint": "541ab8ca63974b08",
+      "last_seen": "2026-09-04T08:48:19.316991+00:00"
+    },
+    "simonlin1212/vibe-astock": {
+      "fingerprint": "895b6cdffe09d6a7",
+      "last_seen": "2026-09-04T08:48:20.726577+00:00"
+    },
+    "metorial/metorial-platform": {
+      "fingerprint": "8e39872be7009ad9",
+      "last_seen": "2026-09-04T08:51:44.340406+00:00"
+    },
+    "alpic-ai/skybridge": {
+      "fingerprint": "e7f1bea8ee88ccaf",
+      "last_seen": "2026-09-04T08:51:45.448795+00:00"
+    },
+    "osaurus-ai/osaurus": {
+      "fingerprint": "213ebcf748e04721",
+      "last_seen": "2026-09-04T08:51:46.727586+00:00"
+    },
+    "Muvon/octocode": {
+      "fingerprint": "60094e932876128c",
+      "last_seen": "2026-09-04T08:48:25.237342+00:00"
+    },
+    "jjang-ai/vmlx": {
+      "fingerprint": "53c555dcc7e0ba76",
+      "last_seen": "2026-09-04T08:48:26.356088+00:00"
+    },
+    "shuxiachai/academic-commercialization-agent": {
+      "fingerprint": "923bf5e1b2cd3ac7",
+      "last_seen": "2026-09-04T08:51:25.934918+00:00"
+    },
+    "cdxiaodong/cain-agent": {
+      "fingerprint": "e2cc9690d19e13e5",
+      "last_seen": "2026-09-04T08:51:28.205623+00:00"
+    },
+    "synthetic-sciences/openscience": {
+      "fingerprint": "0c6d34092e22cd50",
+      "last_seen": "2026-09-04T08:51:33.732153+00:00"
+    },
+    "leancoderkavy/premiere-pro-mcp": {
+      "fingerprint": "fad4b0b494f0ca1a",
+      "last_seen": "2026-09-04T08:51:42.106479+00:00"
+    },
+    "shinpr/mcp-local-rag": {
+      "fingerprint": "a724ab858153c9a9",
+      "last_seen": "2026-09-04T08:51:43.270143+00:00"
+    }
+  }
+}
