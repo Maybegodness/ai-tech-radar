@@ -1,0 +1,39 @@
+[github]
+watch_repos = [
+    "vllm-project/vllm",
+    "vllm-project/vllm-omni",
+    "vllm-project/production-stack",
+    "sglang-project/sglang",
+    "modelscope/AgentScope",
+    "langchain-ai/langchain",
+    "mem0ai/mem0",
+    "LMCache/LMCache",
+    "alibaba/OpenSandbox",
+    "alibaba/spring-ai-alibaba",
+    "QwenLM/Qwen-Agent"
+]
+
+search_queries = [
+    "topic:ai-agent stars:200..10000",
+    "topic:mcp-server stars:200..10000",
+    "topic:multi-agent stars:500..20000",
+    "ai-agent framework stars:500..20000",
+    "org:alibaba ai stars:200..20000",
+    "org:QwenLM stars:200..20000"
+]
+
+[filter]
+ban_keywords = ["template", "tutorial", "example", "demo-only", "lorafile"]
+min_stars = 200
+release_days_back = 7
+ms_days_back = 30
+ms_min_downloads = 500
+max_projects = 20
+
+[llm]
+api_base = "http://192.168.102.19:8082/v1"
+model = "qwen3"
+temperature = 0.1
+
+[schedule]
+run_interval = "daily"

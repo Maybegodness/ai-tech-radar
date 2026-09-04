@@ -1,0 +1,31 @@
+name: AI‑Tech‑Radar Daily Scan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *" # 每天凌晨2点（UTC）
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: install deps
+        run: |
+          pip install requests tomllib
+      - name: run scan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
+        run: python scan.py
+      - name: commit report
+        run: |
+          git config --global user.name "radar‑bot"
+          git config --global user.email "bot@example.com"
+          git add reports/
+          git commit -m "auto update daily report $(date)" || true
+          git push
