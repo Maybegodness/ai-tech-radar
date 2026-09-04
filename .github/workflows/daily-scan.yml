@@ -22,10 +22,12 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           MODELSCOPE_TOKEN: ${{ secrets.MODELSCOPE_TOKEN }}
         run: python scan.py
+      - name: build html
+        run: python build_html.py
       - name: commit report
         run: |
           git config --global user.name "radar‑bot"
           git config --global user.email "bot@example.com"
-          git add reports/
+          git add reports/ index.html
           git commit -m "auto update daily report $(date)" || true
           git push
